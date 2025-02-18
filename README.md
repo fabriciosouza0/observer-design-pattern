@@ -19,10 +19,10 @@ This project was built using:
 ```plaintext
 📦 project-root
 ├── 📁 css
-│   ├── styles.css
+│   ├── main.css
 ├── 📁 js
-│   ├── observer.js
 │   ├── main.js
+│   ├── observable.js
 ├── index.html
 ```
 

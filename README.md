@@ -1,7 +1,6 @@
-````markdown
 # 📌 Observer Design Pattern Example
 
-🔗 **Live Demo:** [observer-demo](https://observer-demo.vercel.app/)
+🔗 **Live Demo:** [observer](https://observer-design-pattern.vercel.app/)
 
 ## 📖 About
 
@@ -42,4 +41,3 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 Feel free to contribute, open issues, or suggest improvements! 🚀
-````

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Observer design pattern - Example</title>
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <form>
+      <input type="text" id="input_text" placeholder="Digite algo aqui" />
+      <!-- Wrapper for form content -->
+      <div class="w-form-content">
+        <!-- Wrapper for buttons -->
+        <div class="w-btn">
+          <button type="button" id="sub_btn_1">Subscribe</button>
+          <button type="button" id="un_sub_btn_1">Unsubscribe</button>
+        </div>
+        <!-- Wrapper for info (description and the element used to render text) -->
+        <div class="w-info">
+          <span class="description">S1:</span>
+          <h6 id="text1">Example 1</h6>
+        </div>
+
+        <!-- Wrapper for buttons -->
+        <div class="w-btn">
+          <button type="button" id="sub_btn_2">Subscribe</button>
+          <button type="button" id="un_sub_btn_2">Unsubscribe</button>
+        </div>
+        <!-- Wrapper for info (description and the element used to render text) -->
+        <div class="w-info">
+          <span class="description">S2:</span>
+          <h6 id="text2">Example 2</h6>
+        </div>
+
+        <!-- Wrapper for buttons -->
+        <div class="w-btn">
+          <button type="button" id="sub_btn_3">Subscribe</button>
+          <button type="button" id="un_sub_btn_3">Unsubscribe</button>
+        </div>
+        <!-- Wrapper for info (description and the element used to render text) -->
+        <div class="w-info">
+          <span class="description">S3</span>
+          <h6 id="text3">Example 3</h6>
+        </div>
+      </div>
+    </form>
+  </body>
+  <script type="module" src="javascript/main.js"></script>
+</html>
